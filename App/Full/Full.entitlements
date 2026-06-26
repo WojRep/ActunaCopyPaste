@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!--
+	  FULL (Developer-ID) build: NOT sandboxed. Secure Enclave + the
+	  data-protection Keychain need only a valid code signature (ad-hoc locally,
+	  Developer ID for distribution) — no special entitlement key. Generic-password
+	  Keychain items use the default access group (the bundle id), so no
+	  keychain-access-groups entry is required.
+	-->
+</dict>
+</plist>

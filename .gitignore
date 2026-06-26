@@ -1,0 +1,35 @@
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# Xcode
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+*.xcworkspace/xcuserdata/
+xcuserdata/
+DerivedData/
+*.xcuserstate
+*.moved-aside
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Build / signing artifacts
+*.app
+*.dSYM/
+*.ipa
+build/
+ExportOptions.plist
+
+# Secrets / local config (never commit)
+*.p12
+*.mobileprovision
+*.provisionprofile
+.env
+secrets.xcconfig
+.claude/settings.json
+HANDOVER.md
